@@ -1,0 +1,70 @@
+local AumentarVelocidade_ScreenGui = Instance.new("ScreenGui")
+AumentarVelocidade_ScreenGui.Name = "AumentarVelocidade"
+AumentarVelocidade_ScreenGui.Parent = game.Players.LocalPlayer.PlayerGui
+	
+local Frame_Frame = Instance.new("Frame")
+Frame_Frame.Name = "Frame"
+Frame_Frame.Size = UDim2.new(0, 337, 0, 59)
+Frame_Frame.Position = UDim2.new(0.33580508828163147, 0, 0.8814935088157654, 0)
+Frame_Frame.BackgroundColor3 = Color3.new(0, 0, 0)
+Frame_Frame.AnchorPoint = Vector2.new(0, 0)
+Frame_Frame.Visible = true
+Frame_Frame.BackgroundTransparency = 0
+Frame_Frame.BorderSizePixel = 0
+Frame_Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame_Frame.Parent = AumentarVelocidade_ScreenGui
+	
+local UICorner_UICorner = Instance.new("UICorner")
+UICorner_UICorner.Name = "UICorner"
+UICorner_UICorner.Parent = Frame_Frame
+	
+local VelocidadeValue_TextBox = Instance.new("TextBox")
+VelocidadeValue_TextBox.Name = "VelocidadeValue"
+VelocidadeValue_TextBox.Size = UDim2.new(0, 156, 0, 50)
+VelocidadeValue_TextBox.Position = UDim2.new(0.5370919704437256, 0, 0.06779661029577255, 0)
+VelocidadeValue_TextBox.BackgroundColor3 = Color3.new(0, 0, 0)
+VelocidadeValue_TextBox.Text = "Velocidade"
+VelocidadeValue_TextBox.TextColor3 = Color3.new(1, 1, 1)
+VelocidadeValue_TextBox.TextSize = 14
+VelocidadeValue_TextBox.AnchorPoint = Vector2.new(0, 0)
+VelocidadeValue_TextBox.Visible = true
+VelocidadeValue_TextBox.BackgroundTransparency = 0
+VelocidadeValue_TextBox.BorderSizePixel = 0
+VelocidadeValue_TextBox.BorderColor3 = Color3.new(0, 0, 0)
+VelocidadeValue_TextBox.Parent = Frame_Frame
+	
+local AumentarVelocidade _TextButton = Instance.new("TextButton")
+AumentarVelocidade _TextButton.Name = "AumentarVelocidade "
+AumentarVelocidade _TextButton.Size = UDim2.new(0, 123, 0, 50)
+AumentarVelocidade _TextButton.Position = UDim2.new(0.06231454014778137, 0, 0, 0)
+AumentarVelocidade _TextButton.BackgroundColor3 = Color3.new(0, 0, 0)
+AumentarVelocidade _TextButton.Text = "Aumentar Velocidade"
+AumentarVelocidade _TextButton.TextColor3 = Color3.new(1, 1, 1)
+AumentarVelocidade _TextButton.TextSize = 14
+AumentarVelocidade _TextButton.AnchorPoint = Vector2.new(0, 0)
+AumentarVelocidade _TextButton.Visible = true
+AumentarVelocidade _TextButton.BackgroundTransparency = 0
+AumentarVelocidade _TextButton.BorderSizePixel = 0
+AumentarVelocidade _TextButton.BorderColor3 = Color3.new(0, 0, 0)
+AumentarVelocidade _TextButton.Parent = Frame_Frame
+	
+local Aumentarvelocidade23_LocalScript = Instance.new("LocalScript")
+Aumentarvelocidade23_LocalScript.Name = "Aumentarvelocidade23"
+Aumentarvelocidade23_LocalScript.Parent = AumentarVelocidade _TextButton
+	
+local TextLabel_TextLabel = Instance.new("TextLabel")
+TextLabel_TextLabel.Name = "TextLabel"
+TextLabel_TextLabel.Size = UDim2.new(0, 337, 0, 27)
+TextLabel_TextLabel.Position = UDim2.new(0, 0, -0.4576271176338196, 0)
+TextLabel_TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_TextLabel.Text = "Script Feito Por Tubers83hacker"
+TextLabel_TextLabel.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_TextLabel.TextSize = 14
+TextLabel_TextLabel.AnchorPoint = Vector2.new(0, 0)
+TextLabel_TextLabel.Visible = true
+TextLabel_TextLabel.BackgroundTransparency = 0
+TextLabel_TextLabel.BorderSizePixel = 0
+TextLabel_TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_TextLabel.TextScaled = true
+TextLabel_TextLabel.Font = Enum.Font.SourceSans
+TextLabel_TextLabel.Parent = Frame_Frame
